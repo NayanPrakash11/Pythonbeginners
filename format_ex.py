@@ -8,8 +8,10 @@ input("What is your name? ")
 name=input
 print('Hello {}. '.format(name))
 
-""" combination of two lists in a dot format code"""
+""" combination of two lists in a dot format (.format) code"""
 
 names=['Kalle', 'Bosse', 'Nisse']
 ages=[56,17,93]
 print('{0[1]} is {1[1]} years'.format(names, ages))
+
+
